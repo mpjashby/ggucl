@@ -30,11 +30,13 @@ scale_colour_ucl <- function(
 
 
 #' @describeIn scale_colour_ucl UCL colour scales for colour and fill aesthetics
+#' @export
 scale_color_ucl <- function(...) scale_colour_ucl(...)
 
 
 
 #' @describeIn scale_colour_ucl UCL colour scales for colour and fill aesthetics
+#' @export
 scale_fill_ucl <- function(
     palette = "blues",
     discrete = TRUE,
