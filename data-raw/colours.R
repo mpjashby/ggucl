@@ -24,6 +24,7 @@ colours <- tibble::tribble(
   "Orange", "#EA7600",
   "Grey", "#8C8279",
   "Blue Celeste", "#A4DBE8",
+  "IOE Blue", "#3255A4",
   "Black", "#000000",
   "White", "#FFFFFF"
 ) |>
