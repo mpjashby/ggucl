@@ -35,7 +35,7 @@ ucl_palette <- function(palette = NULL) {
 
   } else {
 
-    palettes[[palette]]
+    unname(palettes[[palette]])
 
   }
 
