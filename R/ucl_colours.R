@@ -18,9 +18,9 @@ ucl_colours <- function(...) {
 
   # Return specified colours, or all colours otherwise
   if (!is.null(cols)) {
-    return(colours[cols])
+    return(unname(colours[cols]))
   } else {
-    return(colours)
+    return(unname(colours))
   }
 
 }
